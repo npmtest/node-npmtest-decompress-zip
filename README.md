@@ -1,6 +1,6 @@
 # npmtest-decompress-zip
 
-#### basic test coverage for  decompress-zip (v0.3.0)  [![npm package](https://img.shields.io/npm/v/npmtest-decompress-zip.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-decompress-zip) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-decompress-zip.svg)](https://travis-ci.org/npmtest/node-npmtest-decompress-zip)
+#### basic test coverage for  [decompress-zip (v0.3.0)](https://github.com/bower/decompress-zip#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-decompress-zip.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-decompress-zip) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-decompress-zip.svg)](https://travis-ci.org/npmtest/node-npmtest-decompress-zip)
 
 #### Extract files from a ZIP archive
 
@@ -35,31 +35,15 @@
 ```json
 
 {
-    "name": "decompress-zip",
-    "version": "0.3.0",
-    "description": "Extract files from a ZIP archive",
-    "main": "lib/decompress-zip.js",
-    "scripts": {
-        "test": "grunt test"
+    "author": {
+        "name": "Bower"
     },
-    "bin": "bin/decompress-zip",
-    "repository": "bower/decompress-zip",
-    "engines": {
-        "node": ">=0.10.0"
+    "bin": {
+        "decompress-zip": "bin/decompress-zip"
     },
-    "keywords": [
-        "zip",
-        "unzip",
-        "tar",
-        "untar",
-        "compress",
-        "decompress",
-        "archive",
-        "extract",
-        "zlib"
-    ],
-    "author": "Bower",
-    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/bower/decompress-zip/issues"
+    },
     "dependencies": {
         "binary": "^0.3.0",
         "graceful-fs": "^4.1.3",
@@ -69,6 +53,7 @@
         "readable-stream": "^1.1.8",
         "touch": "0.0.3"
     },
+    "description": "Extract files from a ZIP archive",
     "devDependencies": {
         "archiver": "^0.13.1",
         "chai": "^1.10.0",
@@ -84,10 +69,63 @@
         "mocha": "^2.1.0",
         "tmp": "0.0.24"
     },
+    "directories": {},
+    "dist": {
+        "shasum": "ae3bcb7e34c65879adfe77e19c30f86602b4bdb0",
+        "tarball": "https://registry.npmjs.org/decompress-zip/-/decompress-zip-0.3.0.tgz"
+    },
+    "engines": {
+        "node": ">=0.10.0"
+    },
     "files": [
         "bin",
         "lib"
-    ]
+    ],
+    "gitHead": "e0f4c0b3e3aede745929cfbcdd85c19613116ab0",
+    "homepage": "https://github.com/bower/decompress-zip#readme",
+    "keywords": [
+        "zip",
+        "unzip",
+        "tar",
+        "untar",
+        "compress",
+        "decompress",
+        "archive",
+        "extract",
+        "zlib"
+    ],
+    "license": "MIT",
+    "main": "lib/decompress-zip.js",
+    "maintainers": [
+        {
+            "name": "wibblymat"
+        },
+        {
+            "name": "paulirish"
+        },
+        {
+            "name": "sheerun"
+        },
+        {
+            "name": "sindresorhus"
+        },
+        {
+            "name": "satazor"
+        },
+        {
+            "name": "desandro"
+        }
+    ],
+    "name": "decompress-zip",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bower/decompress-zip.git"
+    },
+    "scripts": {
+        "test": "grunt test"
+    },
+    "version": "0.3.0"
 }
 ```
 
